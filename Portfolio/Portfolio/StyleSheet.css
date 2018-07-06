@@ -1,0 +1,115 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+}
+.col-md-1 {
+    background-color: #4f098e;
+}
+#the{
+    color:white;
+    font-size:larger;
+    margin-bottom:-1px;
+    margin-left: 2px;
+}
+.col-md-3{
+    background-color: black;
+}
+#portfolio{
+    color: white;
+    font-size: 48px;
+    margin-bottom:-17px;
+    margin-top:-23px;
+    margin-left: 7px;
+}
+.vl {
+    border-left: 73px solid #4f098e;
+    height: 50px;
+}
+#of{
+    font-size: large;
+    margin-left: 130px;
+    margin-bottom: 7px;
+}
+#Tyler{
+    font-size: 65px;
+    margin-top: -50px;
+    margin-left: -18px;
+}
+#Tran{
+    font-size: 58px;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+#vl{
+    margin:400px;
+}
+.bar {
+    background-color: black;
+    
+}
+.buttons {
+    font-size:larger;
+    text-align: center;
+    text-shadow: 0px -4px 5px gray;
+    border-radius: 12px;
+    color: white;
+    margin-left:4px;
+    margin-right:4px;
+    background-color: black;
+    border-color: transparent;
+    transform: translateY(-15px) translateX(400px);
+}
+.buttons:hover {
+    background-color: #321f4f;
+}
+.buttonsNow {
+    border-color: #4f098e;
+    border-width: 3px;
+}
+.reflections {
+    background-color: rgba(142, 139, 145, .5);
+}
+.button {
+    border-radius: 8px;
+    background-color: #4f098e;
+    border:5px groove grey;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    width:50px;
+    height:150px;
+    transition: all .5s;
+    margin-bottom:5px;
+    margin-top: 5px;
+    margin-left:1100px;
+    margin-right:-5px;
+
+}
+.button span{
+    display: inline;
+    position: relative;
+    transition: .5s;
+}
+.button span:after{
+    content: '\00AB';
+    position: absolute;
+    opacity:0;
+    top:0;
+    left:-20px;
+    transition: .5s;
+}
+.button:hover span{
+    padding-left: 25px;
+}
+.button:hover span:after{
+    opacity:1;
+    left:0;
+}
+.slideScreen {
+    background-color: rgba(134, 0, 255, .88);
+    height: 450px;
+    width: 900px;
+    margin: auto;
+    transform: translate(1000px, -750px);
+    
+}
