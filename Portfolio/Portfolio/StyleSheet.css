@@ -83,10 +83,10 @@
     margin-top: 5px;
     margin-left:1100px;
     margin-right:-5px;
-    
+
 }
 .button span{
-    display: none;
+    display: inline;
     position: relative;
     transition: .5s;
 }
